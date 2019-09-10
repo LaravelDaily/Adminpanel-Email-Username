@@ -22,6 +22,9 @@ class StoreUserRequest extends FormRequest
             'name'     => [
                 'required',
             ],
+            'username' => [
+                'required',
+            ],
             'email'    => [
                 'required',
             ],

@@ -18,6 +18,7 @@ return [
     'home'                                 => 'Home',
     'list'                                 => 'List',
     'login'                                => 'Login',
+    'login_username'                       => 'Username',
     'login_email'                          => 'Email',
     'login_password'                       => 'Password',
     'login_password_confirmation'          => 'Password confirmation',
