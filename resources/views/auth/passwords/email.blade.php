@@ -18,7 +18,7 @@
                         <div>
                             {{ csrf_field() }}
                             <div class="form-group has-feedback">
-                                <input type="email" name="email" class="form-control" required="autofocus" placeholder="{{ trans('global.login_email') }}">
+                                <input type="text" name="email" class="form-control" required="autofocus" placeholder="{{ trans('global.login_email_or_username') }}">
                                 @if($errors->has('email'))
                                     <em class="invalid-feedback">
                                         {{ $errors->first('email') }}
