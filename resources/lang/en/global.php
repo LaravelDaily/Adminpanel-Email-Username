@@ -22,6 +22,7 @@ return [
     'login_email'                          => 'Email',
     'login_password'                       => 'Password',
     'login_password_confirmation'          => 'Password confirmation',
+    'login_email_or_username'              => 'Email or username',
     'logout'                               => 'Logout',
     'month'                                => 'Month',
     'no'                                   => 'No',

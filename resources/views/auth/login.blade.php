@@ -21,7 +21,7 @@
                                     <i class="fa fa-user"></i>
                                 </span>
                             </div>
-                            <input name="email" type="text" class="form-control{{ $errors->has('email') ? ' is-invalid' : '' }}" required autofocus placeholder="{{ trans('global.login_email') }}" value="{{ old('email', null) }}">
+                            <input name="email" type="text" class="form-control{{ $errors->has('email') ? ' is-invalid' : '' }}" required autofocus placeholder="{{ trans('global.login_email_or_username') }}" value="{{ old('email', null) }}">
                             @if($errors->has('email'))
                                 <div class="invalid-feedback">
                                     {{ $errors->first('email') }}
